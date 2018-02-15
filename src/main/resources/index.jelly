@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    Bundles Kotlin 1.x Standard Library for JRE 8
+</div>
