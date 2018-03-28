@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--suppress KotlinMavenPluginPhase / this plugin is only meant to know the dependency not use kotlin to build -->
-<project
-  xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
   <parent>
@@ -16,7 +14,7 @@
   <artifactId>kotlin-v1-stdlib-jdk8</artifactId>
   <packaging>hpi</packaging>
   <name>Kotlin 1.x Standard Library Plugin for JDK 8</name>
-  <version>1.2.30-1.0-SNAPSHOT</version>
+  <version>1.2.30-1.0</version>
   <description>Bundles Kotlin 1.x Standard Library for JDK 8</description>
   <url>https://wiki.jenkins.io/display/JENKINS/Kotlin+1.x+Standard+Library+for+JDK+8+Plugin</url>
 
@@ -52,6 +50,7 @@
     <connection>scm:git:git://github.com/jenkinsci/kotlin-v1-stdlib-jdk8-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/kotlin-v1-stdlib-jdk8-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/kotlin-v1-stdlib-jdk8-plugin</url>
+    <tag>kotlin-v1-stdlib-jdk8-1.2.30-1.0</tag>
   </scm>
 
   <repositories>
