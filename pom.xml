@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project 
+<!--suppress KotlinMavenPluginPhase / this plugin is only meant to know the dependency not use kotlin to build -->
+<project
   xmlns="http://maven.apache.org/POM/4.0.0" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -15,12 +16,12 @@
   <artifactId>kotlin-v1-stdlib-jdk8</artifactId>
   <packaging>hpi</packaging>
   <name>Kotlin 1.x Standard Library Plugin for JDK 8</name>
-  <version>1.2.21-1.0-SNAPSHOT</version>
+  <version>1.2.30-1.0-SNAPSHOT</version>
   <description>Bundles Kotlin 1.x Standard Library for JDK 8</description>
   <url>https://wiki.jenkins.io/display/JENKINS/Kotlin+1.x+Standard+Library+for+JDK+8+Plugin</url>
 
   <properties>
-    <kotlin.version>1.2.21</kotlin.version>
+    <kotlin.version>1.2.30</kotlin.version>
     <java.level>8</java.level>
   </properties>
 
