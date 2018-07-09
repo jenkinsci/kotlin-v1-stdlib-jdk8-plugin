@@ -23,6 +23,7 @@
     <revision>1.2.51-1.2</revision>
     <changelist>-SNAPSHOT</changelist>
     <java.level>8</java.level>
+    <completionGoals>incrementals:reincrementalify</completionGoals>
   </properties>
 
   <developers>
