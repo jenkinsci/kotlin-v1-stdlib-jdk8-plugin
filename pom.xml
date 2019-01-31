@@ -19,8 +19,8 @@
   <url>https://wiki.jenkins.io/display/JENKINS/Kotlin+1.x+Standard+Library+for+JDK+8+Plugin</url>
 
   <properties>
-    <kotlin.version>1.3.11</kotlin.version>
-    <revision>1.3.11-1.5</revision>
+    <kotlin.version>1.3.20</kotlin.version>
+    <revision>1.3.20-1.4</revision>
     <changelist>-SNAPSHOT</changelist>
     <java.level>8</java.level>
     <jenkins.version>2.60.3</jenkins.version>
